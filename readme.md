@@ -4,18 +4,21 @@ This is just a quick Unity thing to help the internet. It's main function is to 
 
 ## Script File
 
-I have also attached just the C# script to this repository as well - as it's not dependent upon anything else.
+I have also attached [just the C# script](https://github.com/JShull/FPulse/blob/main/FP_ColorPulse.cs) to this repository as well - as it's not dependent upon anything else.
 
 ## Unity Package, Dependencies, & How to.
 
-Created the package in Unity 2022.1.13f1 I do have some URP stuff in here but none of that is needed - you really only need the script and you need to throw it on your parent item that you want to grab all of the children and their meshrenderer's. Pick a pulse color and make sure you have some time set in there.
-![Unity Editor](./UnityEditor.png)
+[YouTube showing it working](https://youtu.be/jQzFr8ui-gI)
+
+Created the [package](https://github.com/JShull/FPulse/blob/main/PulseExample.unitypackage) in Unity 2022.1.13f1 I do have some URP stuff in here but none of that is needed - you really only need the script and you need to throw it on your parent item that you want to grab all of the children and their meshrenderer's. Pick a pulse color and make sure you have some time set in there.
 
 **Dependencies in Package**
 
 >"com.unity.postprocessing": "3.2.2",
 >
 >"com.unity.render-pipelines.universal": "13.1.8",
+
+![Unity Editor](./UnityEditor.png)
 
 ## Why?
 
